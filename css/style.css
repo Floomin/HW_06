@@ -76,3 +76,14 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
   color: #004949;
 }
+.submenu {
+  display: none;
+  position: absolute;
+  margin-top: 15px;
+}
+.submenu__item {
+  padding: 5px;
+}
+.menu__item:hover .submenu {
+  display: block;
+}
