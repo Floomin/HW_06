@@ -35,3 +35,18 @@ ul {
 html {
   font-size: 18px;
 }
+body {
+  line-height: 1;
+  background-color: rgb(36, 36, 36);
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: 2% auto;
+}
