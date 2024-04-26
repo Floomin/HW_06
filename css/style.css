@@ -38,7 +38,7 @@ html {
 body {
   line-height: 1;
   background-color: rgb(36, 36, 36);
-  background-image: url("../img/background.jpg");
+  background-image: url("../images/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,6 +112,11 @@ img {
 main img {
   width: 50%;
   border-radius: 15px;
+}
+.main a {
+  color: #004949;
+  font-weight: 900;
+  align-self: flex-end;
 }
 .scroll-to-top {
   position: fixed;
